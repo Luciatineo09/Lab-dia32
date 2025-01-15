@@ -1,3 +1,10 @@
 const calculator = require('./js/calculator/calculator.js')
-console.log(multiplicar(2, 3));
-console.log(dividir(9, 3));
+function divide(a, b) {
+
+    if (b === 0) {
+        return Infinity;
+  
+    } else {
+        return a / b;
+    }
+  }

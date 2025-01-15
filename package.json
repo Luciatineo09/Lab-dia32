@@ -4,11 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --coverage"
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "jest": "^29.7.0"
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jtest": "^0.0.1"
   }
 }
